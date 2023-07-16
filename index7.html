@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal styling -->
+    <style>
+        h1{
+            font-size: 52px;
+        }
+        #head1{
+            color:aquamarine;
+        }
+        .mainheading{
+            border:5px solid red;
+            width:900px;
+            text-align: center;
+        }
+        .border{
+            border:5px double red;
+            border-radius:10px 20px 30px 40px;  
+        }
+        #box{
+            width:200px;
+            height:200px;
+            border:1px solid red;
+            margin-left: 200px;
+            margin-bottom: 200px;
+            margin-top:200px;
+            border-radius:50% 20px 10px 0px;
+            /* first => left and right  second top and bottom third blurness */
+            box-shadow:-30px -40px 100px red;
+
+        }
+        #boxtext{
+            font-weight: 900;
+            text-shadow: 10px 10px 5px rgb(190, 187, 187);    
+            font-size: 52px;
+            position: relative;
+            top:70px;
+            left:70px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="box">
+        <span id="boxtext">Box</span>
+        <i class="fa-solid fa-star" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star fa-2xl" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star fa-2xl" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star fa-2xl" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star fa-2xl" style="color: #f9f348;"></i>
+        <i class="fa-solid fa-star fa-2xl" style="color: #f9f348;"></i>
+        
+    </div>
+    <div>
+        <!-- style within the tag is called as inline style -->
+        <h1 id="head1" class="mainheading border">this is main heading</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, sint facere temporibus rerum vero, maiores, corrupti totam voluptatem voluptates et quae exercitationem veniam porro. Minus doloribus iste quo quam excepturi.
+        </p>
+        <h1 class="mainheading border">this is main heading 2</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos libero alias iusto commodi. Quia at earum assumenda suscipit dolores iure sapiente doloribus corrupti! Accusamus asperiores optio magnam mollitia eligendi iste.</p>
+        <h1 class="border">this is main heading 3</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque dolore pariatur sed itaque nisi ullam perspiciatis quaerat sint reiciendis a ducimus, eos unde fugit voluptatibus consectetur. Unde ex accusamus provident!</p>
+    </div>
+    
+</body>
+</html>
