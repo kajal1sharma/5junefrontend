@@ -1,0 +1,30 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    height:100vh;
+    border:10px solid red;
+    align-content: space-evenly;
+    justify-content: center;
+
+}
+
+.childbox{
+    width:200px;
+    height:200px;
+}
+
+.color1{
+    background-color: aquamarine;
+}
+.color2{
+    background-color: red;
+}
+.color3{
+    background-color: blueviolet;
+}
+.color4{
+    background-color: orangered;
+}
+
